@@ -4,10 +4,10 @@ node_modules
 # Neither with bower components, except we'll include the bootstrap fonts file
 bower_components/*
 !bower_components/bootstrap-sass-official
-bower_components/boostrap-sass-official/*
-!bower_components/boostrap-sass-official/vendor
-bower_components/boostrap-sass-official/vendor/*
-!bower_components/boostrap-sass-official/vendor/assets/fonts
+bower_components/bootstrap-sass-official/*
+!bower_components/bootstrap-sass-official/vendor
+bower_components/bootstrap-sass-official/vendor/*
+!bower_components/bootstrap-sass-official/vendor/assets/fonts
 !bower_components/font-awesome
 bower_components/font-awesome/*
 !bower_components/font-awesome/fonts
