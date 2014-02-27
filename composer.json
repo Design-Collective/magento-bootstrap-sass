@@ -22,13 +22,13 @@
             "url": "https://github.com/magento-hackathon/magento-composer-installer"
         }, 
         {
-            "type": "vcs",
+            "type": "git",
             "url": "https://github.com/design-collective/magento-bootstrap-sass"
         }
     ],
     "require": {
         "magento-hackathon/magento-composer-installer":"*",
-        "design-collective/magento-bootstrap-sass": "dev-master"
+        "design-collective/magento-bootstrap-sass": "~0.5"
     },
     "extra": {
         "magento-root-dir": "./",
