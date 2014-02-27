@@ -150,7 +150,7 @@ publish
 /app/etc/*
 !/app/etc/modules
 /app/etc/modules/*
-!/app/etc/modules/Webcomm_*
+!/app/etc/modules/Bootstrap*
 
 # App locale
 !/app/locale
@@ -323,7 +323,10 @@ publish
 
 # Boilerplate Theme
 !/app/design/frontend/bootstrap-sass
+!/app/design/frontend/bootstrap-sass/*
 !/skin/frontend/bootstrap-sass
+!/skin/frontend/bootstrap-sass/*
+.DS_Store
 
 # If you want to be very clever, you
 # will duplicate 'mytheme', as it

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <BootstrapNavigation>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog/>
+                <Mage_Page/>
+            </depends>
+        </BootstrapNavigation>
+    </modules>
+</config>
