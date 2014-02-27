@@ -28,7 +28,7 @@
     ],
     "require": {
         "magento-hackathon/magento-composer-installer":"*",
-        "design-collective/magento-bootstrap-sass": "~0.5"
+        "design-collective/magento-bootstrap-sass": "dev-master"
     },
     "extra": {
         "magento-root-dir": "./",
@@ -41,6 +41,6 @@
         ]
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "auto"
     }
 }
