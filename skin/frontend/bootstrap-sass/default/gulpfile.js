@@ -74,7 +74,7 @@ gulp.task('js', function() {
 			//'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrapmodal.js',
 			
 		])
-		.pipe(jshint('.jshintrc'))
+		.pipe(jshint())
 		.pipe(jshint.reporter('default'))
 		.pipe(concat('script.js'))
 		// .pipe(uglify())
