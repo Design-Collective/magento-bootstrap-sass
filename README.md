@@ -25,7 +25,7 @@ Begin by creating a `composer.json` in the root of Magento, and ensure it has th
         {
            "type": "vcs",
            "url": "https://github.com/magento-hackathon/magento-composer-installer"
-        }
+        },
         {
             "type": "vcs",
             "url": "https://github.com/Design-Collective/magento-bootstrap-sass"
