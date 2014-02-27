@@ -1,5 +1,5 @@
 # ==================================== #
-# Magento Boilerplate .gitignore file. #
+# Magento Bootstrap-Sass .gitignore    #
 #                                      #
 #  Copyright (c) 2014 Webcomm Pty Ltd  #
 #                                      #
@@ -322,8 +322,8 @@ publish
 
 
 # Boilerplate Theme
-!/app/design/frontend/boilerplate
-!/skin/frontend/boilerplate
+!/app/design/frontend/bootstrap-sass
+!/skin/frontend/bootstrap-sass
 
 # If you want to be very clever, you
 # will duplicate 'mytheme', as it

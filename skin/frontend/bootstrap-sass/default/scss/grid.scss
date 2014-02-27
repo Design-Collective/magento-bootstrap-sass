@@ -1,0 +1,47 @@
+@import "../bower_components/bootstrap/scss/grid.scss";
+
+.col2-set,
+.col2-set,
+.col4-set {
+    @include make-row();
+}
+
+// Content Columns
+.col2-set {
+
+    > .legend {
+        margin-left: ($grid-gutter-width / 2);
+        margin-right: ($grid-gutter-width / 2);
+        width: auto;
+    }
+
+    .col-1,
+    .col-2 {
+        @include make-sm-column(6);
+    }
+    .col-narrow {
+        @include make-sm-column(4);
+    }
+    .col-wide {
+        @include make-sm-column(8);
+    }
+}
+
+.col3-set {
+
+    .col-1,
+    .col-2,
+    .col-3 {
+        @include make-sm-column(4);
+    }
+}
+
+.col4-set {
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4 {
+        @include make-sm-column(3);
+    }
+}

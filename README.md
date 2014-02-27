@@ -1,7 +1,7 @@
 # Magento Boilerplate
 ### A HTML5 Twitter Bootstrap 3.1 Magento 1.8 Boilerplate Template
 
-Read the [blog post](http://www.webcomm.com.au/blog/2013/09/introducing-magento-boilerplate-a-twitter-bootstrap-3-powered-html5-mobile-first-starter-theme) or checkout the [demo](http://magentoboilerplate.webcomm.com.au) for more information.
+Read the [blog post](http://www.webcomm.com.au/blog/2013/09/introducing-magento-bootstrap-sass-a-twitter-bootstrap-3-powered-html5-mobile-first-starter-theme) or checkout the [demo](http://magentoboilerplate.webcomm.com.au) for more information.
 
 ---
 
@@ -25,7 +25,7 @@ Begin by creating a `composer.json` in the root of Magento, and ensure it has th
     ],
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
-        "webcomm/magento-boilerplate": "dev-master"
+        "webcomm/magento-bootstrap-sass": "dev-master"
     },
     "extra": {
         "magento-root-dir": "./",
@@ -45,24 +45,24 @@ cd your-project/
 composer install
 
 # If you wish to autoload composer files
-cp vendor/webcomm/magento-boilerplate/index.php .
+cp vendor/Design-Collective/magento-bootstrap-sass/index.php .
 
 # If you wish to automatically set *.dev domains to developer mode
-cp vendor/webcomm/magento-boilerplate/.htaccess .
+cp vendor/Design-Collective/magento-bootstrap-sass/.htaccess .
 
 # If you wish to run your own theme, replace "mytheme" with the name of your theme
-cp -Rf vendor/webcomm/magento-boilerplate/app/design/frontend/boilerplate app/design/frontend/mytheme
-cp -Rf vendor/webcomm/magento-boilerplate/skin/frontend/boilerplate skin/frontend/mytheme
+cp -Rf vendor/Design-Collective/magento-bootstrap-sass/app/design/frontend/bootstrap-sass app/design/frontend/mytheme
+cp -Rf vendor/Design-Collective/magento-bootstrap-sass/skin/frontend/bootstrap-sass skin/frontend/mytheme
 ```
 
-> Now you should have a new folder `vendor/webcomm/magento-boilerplate` with our repository and new symbolic links in Magento. You can update to each new version with `composer update`.
+> Now you should have a new folder `vendor/Design-Collective/magento-bootstrap-sass` with our repository and new symbolic links in Magento. You can update to each new version with `composer update`.
 
 ### Git
 
 Firstly, clone our repo down to a folder:
 
 ```bash
-git clone git@github.com:webcomm/magento-boilerplate.git your-project
+git clone git@github.com:Design-Collective/magento-bootstrap-sass.git your-project
 ```
 
 Secondly, copy in a supported Magento version over the top of the reop:
@@ -78,7 +78,7 @@ mv -f magento/* your-project/
 ### ZIP downloads
 
 1. Download Magento from [http://www.magentocommerce.com/download](http://www.magentocommerce.com/download).
-2. Download our repo from [https://github.com/webcomm/magento-boilerplate/archive/master.zip](https://github.com/webcomm/magento-boilerplate/archive/master.zip).
+2. Download our repo from [https://github.com/Bootstrap/magento-bootstrap-sass/archive/master.zip](https://github.com/Bootstrap/magento-bootstrap-sass/archive/master.zip).
 
 Merge the folders, and you're good to go.
 
@@ -91,8 +91,8 @@ Developing in our boilerplate theme is rather easy. To begin, you should either 
 To do this, you'll need to either copy or rename:
 
 ```bash
-cp -Rf app/design/frontend/boilerplate app/design/frontend/mytheme
-cp -Rf skin/frontend/boilerplate skin/frontend/mytheme
+cp -Rf app/design/frontend/bootstrap-sass app/design/frontend/mytheme
+cp -Rf skin/frontend/bootstrap-sass skin/frontend/mytheme
 ```
 
 Once you've copied or renamed the theme, you will need to add it to the bottom of the `.gitignore` file:
@@ -131,17 +131,17 @@ That's it. From now on, your changes you make to LESS files will automatically c
 
 This theme does not ship with all Bootstrap CSS and JavaScript. The reason is, most sites don't **need** all the components and therefore you're bloating a site by providing more than required. We're including only the files required to get this boilerplate theme running.
 
-To add new Bootstrap styles, simply open up `less/style.less`. From there, you may directly import Bootstrap files, or your own files which in turn import Bootstrap's. For example, add the following into `less/style.less`:
+To add new Bootstrap styles, simply open up `scss/style.sass`. From there, you may directly import Bootstrap files, or your own files which in turn import Bootstrap's. For example, add the following into `scss/style.sass`:
 
 ```css
-@import "media.less"; /* Relative to less/style.less */
+@import "media.scss"; /* Relative to scss/style.sass */
 ```
 
-Then, in `less/media.less`:
+Then, in `scss/media.sass`:
 
 ```css
-/* In less/media.less */
-@import "../bower_components/bootstrap/less/media.less"; /* Relative to less/media.less */
+/* In scss/media.sass */
+@import "../bower_components/bootstrap/scss/media.scss"; /* Relative to scss/media.sass */
 
 .media {
     /* Your custom overrides go below the call to Bootstrap's styles */
@@ -175,10 +175,10 @@ Feel free to edit any of the files under `dist/css` and `dist/js` if you'd like 
 
 ## Contributing
 
-The git repo for this project can be found at [http://github.com/webcomm/magento-boilerplate](http://github.com/webcomm/magento-boilerplate), and a demo can be found at [http://magentoboilerplate.webcomm.com.au](http://magentoboilerplate.webcomm.com.au).
+The git repo for this project can be found at [http://github.com/Bootstrap/magento-bootstrap-sass](http://github.com/Bootstrap/magento-bootstrap-sass), and a demo can be found at [http://magentoboilerplate.webcomm.com.au](http://magentoboilerplate.webcomm.com.au).
 
 We feel that we've done a pretty decent job at creating a great starter theme for developing up a Magento site. We chose Twitter Bootstrap 3 not because we want all sites to look like Bootstrap, we hate that too. Bootstrap creates a great foundation of reusable components which you can use to create something truly unique.
 
 The reason Boilerplate themes exist is so you can spend less time on getting ready to start productive work by removing the repetitive first steps. We've taken care of the boring, so you may focus on the unique.
 
-If you like our work, we're not after your money, but rather, we'd love to see a [pull request](http://github.com/webcomm/magento-boilerplate/pulls), or even an [issue](http://github.com/webcomm/magento-boilerplate/issues), on your vision for how this can be improved! At the end of the day, if we can all create something truly useful to a lot of people, everybody wins and we can all go home earlier.
+If you like our work, we're not after your money, but rather, we'd love to see a [pull request](http://github.com/Bootstrap/magento-bootstrap-sass/pulls), or even an [issue](http://github.com/Bootstrap/magento-bootstrap-sass/issues), on your vision for how this can be improved! At the end of the day, if we can all create something truly useful to a lot of people, everybody wins and we can all go home earlier.

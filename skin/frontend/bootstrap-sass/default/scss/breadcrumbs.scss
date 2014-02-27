@@ -1,0 +1,6 @@
+@import "../bower_components/bootstrap/scss/breadcrumbs.scss";
+
+.breadcrumb strong {
+    font-weight: normal;
+    color: $breadcrumb-active-color;
+}

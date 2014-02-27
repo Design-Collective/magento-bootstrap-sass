@@ -27,11 +27,14 @@
         }
     ],
     "require": {
-        "magento-hackathon/magento-composer-installer":"*"
+        "magento-hackathon/magento-composer-installer":"*",
+        "Design-Collective/magento-bootstrap-sass": "dev-master"
     },
     "extra": {
+        "magento-root-dir": "./",
+        "magento-deploystrategy": "copy",
         "map": [
-            ["app/code/local/Webcomm/BootstrapNavigation", "app/code/local/Bootstrap/BootstrapNavigation"],
+            ["app/code/local/Bootstrap/BootstrapNavigation", "app/code/local/Bootstrap/BootstrapNavigation"],
             ["app/design/frontend/bootstrap-sass/default", "app/design/frontend/bootstrap-sass/default"],
             ["app/etc/modules/BootstrapNavigation.xml", "app/etc/modules/BootstrapNavigation.xml"],
             ["skin/frontend/bootstrap-sass/default", "skin/frontend/bootstrap-sass/default"]

@@ -1,0 +1,10 @@
+.logo {
+
+    strong {
+        @include hide-text();
+    }
+
+    h1& {
+        margin: 0;
+    }
+}
