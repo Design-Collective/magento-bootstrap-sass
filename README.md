@@ -1,10 +1,9 @@
 # Magento Bootstrap SASS Boilerplate 
 ### A HTML5 Twitter Bootstrap 3.1 Magento 1.8 Boilerplate Template
 
-This is a SASS fork of https://github.com/webcomm/magento-boilerplate
-
 Converted to Sass by [Design Collective](http://www.designcollective.io) - [Los Angeles Development and Design](http://www.designcollective.io)
 
+This is a SASS fork of https://github.com/webcomm/magento-boilerplate
 Read their [blog post](http://www.webcomm.com.au/blog/2013/09/introducing-magento-bootstrap-sass-a-twitter-bootstrap-3-powered-html5-mobile-first-starter-theme) or checkout their [demo](http://magentoboilerplate.webcomm.com.au) for more information.
 
 ---
