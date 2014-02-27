@@ -31,8 +31,7 @@
             ["app/design/frontend/bootstrap-sass/default", "app/design/frontend/bootstrap-sass/default"],
             ["app/etc/modules/BootstrapNavigation.xml", "app/etc/modules/BootstrapNavigation.xml"],
             ["skin/frontend/bootstrap-sass/default", "skin/frontend/bootstrap-sass/default"]
-        ],
-        "magento-force": "true"
+        ]
     },
     "config": {
         "preferred-install": "dist"
