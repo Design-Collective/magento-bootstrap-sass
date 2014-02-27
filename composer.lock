@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2fae9316ef48165fae3eab9c51afe35b",
+    "hash": "fc73f22a5269b0fdea8ac77802d6067c",
     "packages": [
         {
             "name": "magento-hackathon/magento-composer-installer",
@@ -90,9 +90,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "design-collective/magento-bootstrap-sass": 20
+    },
     "platform": [
 
     ],

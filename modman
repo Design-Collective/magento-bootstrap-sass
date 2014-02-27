@@ -1,4 +1,4 @@
-app/code/local/Bootstrap/BootstrapNavigation         app/code/local/Bootstrap/BootstrapNavigation
-app/design/frontend/bootstrap-sass/default         app/design/frontend/bootstrap-sass/default
-app/etc/modules/BootstrapNavigation.xml         app/etc/modules/BootstrapNavigation.xml
-skin/frontend/bootsrap-sass/default         skin/frontend/bootstrap-sass/default
+app/code/local/Bootstrap/BootstrapNavigation app/code/local/Bootstrap/BootstrapNavigation
+app/design/frontend/bootstrap-sass/default   app/design/frontend/bootstrap-sass/default
+app/etc/modules/BootstrapNavigation.xml      app/etc/modules/BootstrapNavigation.xml
+skin/frontend/bootsrap-sass/default          skin/frontend/bootstrap-sass/default
