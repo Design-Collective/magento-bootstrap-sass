@@ -28,13 +28,13 @@ Begin by creating a `composer.json` in the root of Magento, and ensure it has th
         },
         {
             "type": "vcs",
-            "url": "https://github.com/Design-Collective/magento-bootstrap-sass"
+            "url": "https://github.com/design-collective/magento-bootstrap-sass"
 
         }
     ],
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
-        "Design-Collective/magento-bootstrap-sass": "dev-master"
+        "design-collective/magento-bootstrap-sass": "dev-master"
     },
     "extra": {
         "magento-root-dir": "./",
@@ -54,24 +54,24 @@ cd your-project/
 composer install
 
 # If you wish to autoload composer files
-cp vendor/Design-Collective/magento-bootstrap-sass/index.php .
+cp vendor/design-collective/magento-bootstrap-sass/index.php .
 
 # If you wish to automatically set *.dev domains to developer mode
-cp vendor/Design-Collective/magento-bootstrap-sass/.htaccess .
+cp vendor/design-collective/magento-bootstrap-sass/.htaccess .
 
 # If you wish to run your own theme, replace "mytheme" with the name of your theme
-cp -Rf vendor/Design-Collective/magento-bootstrap-sass/app/design/frontend/bootstrap-sass app/design/frontend/mytheme
-cp -Rf vendor/Design-Collective/magento-bootstrap-sass/skin/frontend/bootstrap-sass skin/frontend/mytheme
+cp -Rf vendor/design-collective/magento-bootstrap-sass/app/design/frontend/bootstrap-sass app/design/frontend/mytheme
+cp -Rf vendor/design-collective/magento-bootstrap-sass/skin/frontend/bootstrap-sass skin/frontend/mytheme
 ```
 
-> Now you should have a new folder `vendor/Design-Collective/magento-bootstrap-sass` with our repository and new symbolic links in Magento. You can update to each new version with `composer update`.
+> Now you should have a new folder `vendor/design-collective/magento-bootstrap-sass` with our repository and new symbolic links in Magento. You can update to each new version with `composer update`.
 
 ### Git
 
 Firstly, clone our repo down to a folder:
 
 ```bash
-git clone git@github.com:Design-Collective/magento-bootstrap-sass.git your-project
+git clone git@github.com:design-collective/magento-bootstrap-sass.git your-project
 ```
 
 Secondly, copy in a supported Magento version over the top of the reop:
