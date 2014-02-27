@@ -1,38 +1,23 @@
 {
-    "name": "design-collective/magento-bootstrap-sass",
+    "name": "Design-Collective/magento-bootstrap-sass",
     "type": "magento-module",
-    "description": "HTML5 Twitter Bootstrap 3.1 Magento Boilerplate Template using Sass",
+    "description": "HTML5 Twitter Bootstrap 3.1 Magento Boilerplate Template",
     "authors": [
         {
-            "name": "Rodrigo Garcia",
-            "email": "rodrigo@designcollective.io"
-        },
-        {
-            "name": "Ben Corlett",
+            "name": "Design Collective",
             "email": "bencorlett@me.com"
-        },
-        {
-            "name": "Webcomm Pty Ltd",
-            "email": "contact@webcomm.com.au"
         }
     ],
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/magento-hackathon/magento-composer-installer"
-        }, 
-        {
-            "type": "vcs",
-            "url": "https://github.com/design-collective/magento-bootstrap-sass"
         }
     ],
     "require": {
-        "magento-hackathon/magento-composer-installer":"*",
-        "design-collective/magento-bootstrap-sass": "dev-master"
+        "magento-hackathon/magento-composer-installer":"*"
     },
     "extra": {
-        "magento-root-dir": "./",
-        "magento-deploystrategy": "copy",
         "map": [
             ["app/code/local/Bootstrap/BootstrapNavigation", "app/code/local/Bootstrap/BootstrapNavigation"],
             ["app/design/frontend/bootstrap-sass/default", "app/design/frontend/bootstrap-sass/default"],
@@ -41,6 +26,6 @@
         ]
     },
     "config": {
-        "preferred-install": "auto"
+        "preferred-install": "dist"
     }
 }
