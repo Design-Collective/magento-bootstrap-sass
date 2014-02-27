@@ -1,8 +1,12 @@
 {
-    "name": "webcomm/magento-boilerplate",
+    "name": "designcollective/magento-bootstrap-sass",
     "type": "magento-module",
-    "description": "HTML5 Twitter Bootstrap 3.1 Magento Boilerplate Template",
+    "description": "HTML5 Twitter Bootstrap 3.1 Magento Boilerplate Template using Sass",
     "authors": [
+        {
+            "name": "Rodrigo Garcia",
+            "email": "rodrigo@designcollective.io"
+        },
         {
             "name": "Ben Corlett",
             "email": "bencorlett@me.com"
@@ -16,6 +20,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/magento-hackathon/magento-composer-installer"
+        }, 
+        {
+            "type": "vcs",
+            "url": "https://github.com/Design-Collective/magento-bootstrap-sass"
         }
     ],
     "require": {
@@ -23,10 +31,10 @@
     },
     "extra": {
         "map": [
-            ["app/code/local/Webcomm/BootstrapNavigation", "app/code/local/Webcomm/BootstrapNavigation"],
-            ["app/design/frontend/boilerplate/default", "app/design/frontend/boilerplate/default"],
-            ["app/etc/modules/Webcomm_BootstrapNavigation.xml", "app/etc/modules/Webcomm_BootstrapNavigation.xml"],
-            ["skin/frontend/boilerplate/default", "skin/frontend/boilerplate/default"]
+            ["app/code/local/Webcomm/BootstrapNavigation", "app/code/local/Bootstrap/BootstrapNavigation"],
+            ["app/design/frontend/bootstrap-sass/default", "app/design/frontend/bootstrap-sass/default"],
+            ["app/etc/modules/BootstrapNavigation.xml", "app/etc/modules/BootstrapNavigation.xml"],
+            ["skin/frontend/bootstrap-sass/default", "skin/frontend/bootstrap-sass/default"]
         ]
     },
     "config": {
