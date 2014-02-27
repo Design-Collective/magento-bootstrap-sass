@@ -22,7 +22,7 @@
             "url": "https://github.com/magento-hackathon/magento-composer-installer"
         }, 
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/design-collective/magento-bootstrap-sass"
         }
     ],
