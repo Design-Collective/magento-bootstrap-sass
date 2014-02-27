@@ -5,7 +5,15 @@
     "authors": [
         {
             "name": "Design Collective",
+            "email": "info@designcollective.io"
+        },
+        {
+            "name": "Ben Corlett",
             "email": "bencorlett@me.com"
+        },
+        {
+            "name": "Webcomm Pty Ltd",
+            "email": "contact@webcomm.com.au"
         }
     ],
     "repositories": [
