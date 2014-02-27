@@ -68,11 +68,11 @@ gulp.task('js', function() {
 			'js/script.js'
 			// We could also do each one individually
 			//'bower_components/jquery/jquery.js',
-			//'bower_components/bootstrap/js/transition.js',
-			//'bower_components/bootstrap/js/collapse.js',
-			//'bower_components/bootstrap/js/carousel.js',
-			//'bower_components/bootstrap/js/dropdown.js',
-			//'bower_components/bootstrap/js/modal.js',
+			//'bower_components/boostrap-sass-official/vendor/assets/javascripts/bootstraptransition.js',
+			//'bower_components/boostrap-sass-official/vendor/assets/javascripts/bootstrapcollapse.js',
+			//'bower_components/boostrap-sass-official/vendor/assets/javascripts/bootstrapcarousel.js',
+			//'bower_components/boostrap-sass-official/vendor/assets/javascripts/bootstrapdropdown.js',
+			//'bower_components/boostrap-sass-official/vendor/assets/javascripts/bootstrapmodal.js',
 			
 		])
 		.pipe(jshint('.jshintrc'))
