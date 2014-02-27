@@ -113,14 +113,14 @@ The first thing to do this is install [Bower](http://bower.io) and [gulp.js](htt
 To install Bower dependencies (not included in the theme becuase they're simply not required for everybody), you'll need to use Bower.
 
 ```bash
-cd skin/frontend/mytheme/default
+cd skin/frontend/bootstrap-sass/default
 bower install
 ```
 
 Once you have gulp.js installed globally, open up your terminal and change directory into your theme and execute `gulp`:
 
 ```bash
-cd skin/frontend/mytheme/default
+cd skin/frontend/bootstrap-sass/default
 npm install
 gulp
 ```
@@ -172,6 +172,12 @@ To add new JavaScript files, open up `gulpfile.js`. gulp.js is seperated into a 
 Feel free to edit any of the files under `dist/css` and `dist/js` if you'd like to manually develop your site. There's no harm in doing this, if you don't want to use gulp.js in the future. Keep in mind that, if you decide to compile with gulp.js that you will lose your manual changes.
 
 ----
+
+## Usefule Links
+
+http://markgoodyear.com/2014/01/getting-started-with-gulp/
+https://github.com/twbs/bootstrap-sass
+http://www.codefellows.org/blogs/quick-intro-to-gulp-js
 
 ## Contributing
 
