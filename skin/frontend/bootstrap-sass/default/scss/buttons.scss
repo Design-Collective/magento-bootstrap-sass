@@ -1,7 +1,0 @@
-@import "..bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/buttons";
-
-// Alias Magento's button class to Bootstraps
-.button {
-    @include btn();
-    @include btn-default();
-}

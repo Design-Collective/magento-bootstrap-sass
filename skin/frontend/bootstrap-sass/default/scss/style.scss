@@ -1,57 +1,59 @@
-// Magento
-@import "magento.scss";
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+ 
+// Magento 
+@import "magento";
 
-// Reset
-@import "normalize.scss";
-@import "print.scss";
+// Resetljn
+@import "normalize";
+@import "print";
 
 // Core CSS
-@import "scaffolding.scss";
-@import "type.scss";
-@import "grid.scss";
-@import "tables.scss";
-@import "forms.scss";
-@import "buttons.scss";
+@import "scaffolding";
+@import "type";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
 
 // Components
-@import "component-animations.scss";
-@import "dropdowns.scss";
-@import "input-groups.scss";
-@import "navs.scss";
-@import "navbar.scss";
-@import "breadcrumbs.scss";
-@import "pagination.scss";
-@import "alerts.scss";
-@import "list-group.scss";
-@import "panels.scss";
-@import "wells.scss";
-@import "close.scss";
+@import "component-animations";
+@import "dropdowns";
+@import "input-groups";
+@import "navs";
+@import "navbar";
+@import "breadcrumbs";
+@import "pagination";
+@import "alerts";
+@import "list-group";
+@import "panels";
+@import "wells";
+@import "close";
 
-@import "icons.scss";
-@import "std.scss";
-@import "misc.scss";
-@import "logos.scss";
-@import "languages.scss";
-@import "search.scss";
-@import "blocks.scss";
-@import "categories.scss";
-@import "products.scss";
-@import "prices.scss";
-@import "ratings.scss";
-@import "content.scss";
-@import "cart.scss";
-@import "checkout.scss";
-@import "customer.scss";
+@import "icons";
+@import "std";
+@import "misc";
+@import "logos";
+@import "languages";
+@import "search";
+@import "blocks";
+@import "categories";
+@import "products";
+@import "prices";
+@import "ratings";
+@import "content";
+@import "cart";
+@import "checkout";
+@import "customer";
 
 // Components w/ JavaScript
-@import "modals.scss";
-@import "popovers.scss";
-@import "carousel.scss";
+@import "modals";
+@import "popovers";
+@import "carousel";
 
 // Utility classes
-@import "utilities.scss";
-@import "responsive-utilities.scss";
+@import "utilities";
+@import "responsive-utilities";
 
-// Core variables and mixins
-@import "mixins.scss";
-@import "variables.scss";
+@import "compass/css3"; // Helpers and Vars

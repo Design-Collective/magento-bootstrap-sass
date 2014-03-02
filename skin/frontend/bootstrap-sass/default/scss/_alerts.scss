@@ -1,0 +1,45 @@
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/alerts";
+
+.success {
+    color: $state-success-text;
+}
+.error {
+    color: $state-danger-text;
+}
+.notice {
+    color: $state-info-text;
+}
+
+.messages > li {
+    margin-bottom: 10px;
+}
+
+.error-msg,
+.success-msg,
+.note-msg,
+.notice-msg {
+    @extend .alert;
+}
+
+.error-msg {
+    @extend .alert-danger;
+}
+
+.success-msg {
+    @extend .alert-success;
+}
+
+.note-msg,
+.notice-msg {
+    @extend .alert-info;
+}
+
+// Global notices
+.global-site-notice {
+    @extend .alert;
+    @extend .alert-warning;
+
+    p {
+        margin: 0;
+    }
+}

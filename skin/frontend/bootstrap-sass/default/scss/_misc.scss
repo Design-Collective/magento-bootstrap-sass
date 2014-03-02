@@ -1,0 +1,65 @@
+// Misc
+.links {
+    li {
+        display: inline;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}
+
+.link-cart,
+.link-wishlist,
+.link-reorder,
+.link-compare,
+.link-print {
+    font-weight: bold;
+}
+
+.btn-remove, .btn-previous,
+.btn-remove2, .btn-edit {
+    display: inline-block;
+    font-size: 0;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    // Create a "X" icon
+    &:after {
+        font-size: ($font-size-base * 1.0);
+        font-weight: $close-font-weight;
+        font-family: FontAwesome;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+.btn-edit:after {
+    content: $fa-var-pencil;
+}
+
+.btn-remove, .btn-remove2 {
+    // Create a "X" icon
+    &:after {
+        content: $fa-var-times;
+    }
+}
+
+.btn-cart {
+    @extend .btn-primary;
+}
+
+.cards-list dt { margin:5px 0 0; }
+.cards-list .offset { padding:2px 0 2px 20px; }
+
+.separator { margin:0 3px; }
+
+.divider { clear:both; display:block; font-size:0; line-height:0; height:1px; margin:10px 0; background:url(../../images/bkg_divider1.gif) 0 50% repeat-x; text-indent:-999em; overflow:hidden; }

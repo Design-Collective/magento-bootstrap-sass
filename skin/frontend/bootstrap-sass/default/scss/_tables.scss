@@ -1,0 +1,13 @@
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/tables";
+
+.data-table {
+    @extend .table;
+    @extend .table-bordered;
+
+    > tbody > tr:nth-child(odd) {
+        > td,
+        > th {
+            background-color: $table-bg-accent;
+        }
+    }
+}

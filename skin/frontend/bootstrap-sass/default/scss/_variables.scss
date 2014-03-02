@@ -1,0 +1,30 @@
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/variables";
+
+//
+// Variables
+// --------------------------------------------------
+
+
+// Global values
+// --------------------------------------------------
+
+// Brand colors
+// -------------------------
+
+$brand-primary:         #f15c22;
+
+// Iconography
+// -------------------------
+
+$icon-font-path:          "../../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+$fa-font-path:            "../../bower_components/font-awesome/fonts";
+
+
+// COMPONENT VARIABLES
+// --------------------------------------------------
+
+// Popovers
+// -------------------------
+$popover-max-width:                   400px;
+
+$bootstrap-sass-asset-helper: false;

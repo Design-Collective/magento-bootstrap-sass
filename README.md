@@ -128,6 +128,7 @@ Once you have gulp.js installed globally, open up your terminal and change direc
 ```bash
 cd skin/frontend/bootstrap-sass/default
 npm install
+bower install
 gulp
 ```
 
@@ -147,7 +148,7 @@ Then, in `scss/media.sass`:
 
 ```css
 /* In scss/media.sass */
-@import "..bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/media.scss"; /* Relative to scss/media.sass */
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/media.scss"; /* Relative to scss/media.sass */
 
 .media {
     /* Your custom overrides go below the call to Bootstrap's styles */

@@ -1,0 +1,13 @@
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/navbar";
+
+.navbar-main {
+
+    .navbar-brand {
+
+        @media (min-width: $grid-float-breakpoint) {
+            & {
+                display: none;
+            }
+        }
+    }
+}
