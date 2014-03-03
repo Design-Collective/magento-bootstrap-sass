@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-		<BootstrapNavigation>
+		<Bootstrap_BootstrapNavigation>
 			<version>0.1.0</version>
-		</BootstrapNavigation>
+		</Bootstrap_BootstrapNavigation>
 	</modules>
 	<global>
 		<blocks>
 			<bootstrapnavigation>
-				<class>BootstrapNavigation_Block</class>
+				<class>Bootstrap_BootstrapNavigation_Block</class>
 			</bootstrapnavigation>
 			<page>
 
 				<!-- Rewrite the topmenu to ours so we can add our custom classes -->
 				<rewrite>
-					<html_topmenu>BootstrapNavigation_Block_Page_Html_Topmenu</html_topmenu>
+					<html_topmenu>Bootstrap_BootstrapNavigation_Block_Page_Html_Topmenu</html_topmenu>
 				</rewrite>
 
 			</page>
 		</blocks>
 		<helpers>
 			<bootstrapnavigation>
-				<class>BootstrapNavigation_Helper</class>
+				<class>Bootstrap_BootstrapNavigation_Helper</class>
 			</bootstrapnavigation>
 		</helpers>
 		<models>
 			<bootstrapnavigation>
-				<class>BootstrapNavigation_Model</class>
+				<class>Bootstrap_BootstrapNavigation_Model</class>
 			</bootstrapnavigation>
 		</models>
 	</global>

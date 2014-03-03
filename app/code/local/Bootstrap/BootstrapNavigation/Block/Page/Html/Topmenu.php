@@ -1,6 +1,6 @@
 <?php
 
-class BootstrapNavigation_Block_Page_Html_Topmenu extends Mage_Page_Block_Html_Topmenu
+class Bootstrap_BootstrapNavigation_Block_Page_Html_Topmenu extends Mage_Page_Block_Html_Topmenu
 {
     /**
      * {@inheritDoc}

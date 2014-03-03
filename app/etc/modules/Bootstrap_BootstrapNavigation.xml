@@ -2,13 +2,13 @@
 
 <config>
     <modules>
-        <BootstrapNavigation>
+        <Bootstrap_BootstrapNavigation>
             <active>true</active>
             <codePool>local</codePool>
             <depends>
                 <Mage_Catalog/>
                 <Mage_Page/>
             </depends>
-        </BootstrapNavigation>
+        </Bootstrap_BootstrapNavigation>
     </modules>
 </config>
