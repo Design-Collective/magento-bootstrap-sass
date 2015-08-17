@@ -48,7 +48,7 @@
 
     @media (min-width: $screen-xs) {
         & {
-            @extend .btn-lg;
+            //@include btn-lg();
         }
     }
 }
