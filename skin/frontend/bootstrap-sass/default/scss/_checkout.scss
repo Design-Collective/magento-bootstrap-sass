@@ -130,7 +130,7 @@
     }
 }
 .tool-tip-content {
-    @extend .popover-conten;
+    @extend .popover-content;
 
     img {
         @include img-responsive();
