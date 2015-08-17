@@ -106,7 +106,7 @@ gulp.task('default', ['clean'], function() {
 gulp.task('watch', function() {
 
   // Watch .scss files
-  gulp.watch('scss/**/*.scss', ['styles']);
+  gulp.watch('scss/**/*.scss', ['sass']);
 
   // Watch .js files
   gulp.watch('js/**/*.js', ['scripts']);
